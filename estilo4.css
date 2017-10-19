@@ -67,7 +67,6 @@ header {
 	background-color: #fafafa;
 	display: flex;
 	flex-flow: row wrap;
-	border-radius: 5px;
 	justify-content: center;
 }
 
@@ -124,7 +123,6 @@ aside {
 
 .info {   
 	background-color: #ccc;
-	border-radius: 8px;
 	margin-bottom: 1em;
 	padding: 1em;     
 }
