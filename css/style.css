@@ -85,6 +85,7 @@ img {
 }
 
 button {
+	display: none;
 	width: 100%;
 	border: none;
 	padding: 0.2em;
@@ -153,13 +154,18 @@ footer {
 		margin: 0.2em;
 	}
 
+	.search-button{
+		display: block;
+	}
+
 	aside {
 		display: none;
 	}
 
 	footer {
 		display: none;
-	}	
+	}
+
 
 }
 
