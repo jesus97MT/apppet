@@ -1,23 +1,49 @@
-/* HEADER ICONS-LOGO*/
-.div-search {
+.header-flex {
+	background-color: #75ccb9;	
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+/* SEARCH */
+
+
+.none-search {
+	display: none;
+}
+
+.search-button {
 	width: 20%;
 	text-align: center;
 }
+
 .icon-search {
 	width: 23px;
 	margin-top: 0.8em;
 }
 
+.search-box{
+	background-color: #75ccb9;
+}
+
+.search-box-input{
+	width: 100%;
+	height: 30px;
+    font-size: 1rem;
+    border: 3px solid white;
+    background-color: white;
+    color: black;
+}
+
+/* HEADER ICONS-LOGO-MENU*/
 .div-logo {
 	width: 60%;
 	text-align: center;
-
 }
 .nom-app {
 	width: 95px;
-	margin-right: -2em;
+	margin-right: -0.7em;
 }
-
 .logo {
 	width: 23px;
 }
@@ -30,7 +56,7 @@
 	width: 30px;
 	margin-top: 0.6em;
 }
-
+ 
 /* HEADER MENU */
 header nav {
 	width: 100%;
@@ -59,7 +85,7 @@ header nav ul li span {
 }
  
 header nav ul li a:hover {
-	background: #037E8C;
+	background: #00acc1;
 }
 
 
@@ -67,17 +93,17 @@ header nav ul li a:hover {
 @media screen and (min-width: 800px) {
 	
 	header nav {
-			background-color: #75ccb9;
+		background-color: #75ccb9;
 	}
 
-	.div-search {
+	.search-button {
 		display: none;
 	}
 
 	.div-logo {
 		width: 30%;
 		text-align: center;
-		padding: 0.1em;
+		padding-top: 0.5em;
 	}
 
 	.div-menu {
@@ -101,4 +127,5 @@ header nav ul li a:hover {
 		border-bottom: 1px solid rgba(255,255,255, .3);
 	}
 
+	
 }
