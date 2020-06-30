@@ -20,7 +20,7 @@ To access the application you must enter the following [link](https://apppet-8bb
 ## Built With
 
 * [Back-End] - Built with Firebase
-* [Front-End] - Built with Vue + Vuetify
+* [Front-End](https://github.com/DAWZayas/apppet) - Built with Vue + Vuetify 
 
 
 ## Version App
